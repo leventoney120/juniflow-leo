@@ -98,7 +98,7 @@ services:
       - taiga
 
   taiga-front:
-    image: juniustech/juniflow.fe:latestt
+    image: juniflow.fe:latest
     # container_name: juniflow-frontend
     environment:
       TAIGA_URL: "${TAIGA_SCHEME}://${TAIGA_DOMAIN}"
